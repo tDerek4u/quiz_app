@@ -33,13 +33,9 @@ To serve the laravel app, you need to run the following command in the project d
 - **Note: You need run the following command into new terminal tab**
 
 
-<<<<<<< HEAD
-```bash
-=======
 ###php
->>>>>>> 75f17890370047c27e05d6ae68c76812e20a8dff
 php artisan serve
-```
+
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
