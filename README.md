@@ -33,7 +33,7 @@ To serve the laravel app, you need to run the following command in the project d
 - **Note: You need run the following command into new terminal tab**
 
 
-###php
+### php
 php artisan serve
 
 
