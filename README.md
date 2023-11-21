@@ -32,7 +32,7 @@ create an empty database with mysql 8.x version, then setup that fresh db at you
 To serve the laravel app, you need to run the following command in the project director (This will serve your app, and give you an adress with port number 8000 or etc)
 - **Note: You need run the following command into new terminal tab**
 
-```php
+###php
 php artisan serve
 
 
