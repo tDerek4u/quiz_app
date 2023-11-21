@@ -1,17 +1,40 @@
-# install dependencies
+### Install packages
+Install vendor using composer
+
+```bash
 composer install
+```
+
+Install node module using npm
+
+```bash
 npm install
+```
 
-# create .env file and generate the application key
+### Configure .env
+Copy .env.example file
+
+```bash
 cp .env.example .env
+```
+
+Then run the following command :
+
+```php
 php artisan key:generate
+```
 
-# build CSS and JS assets
-npm run dev
-# or, if you prefer minified files
-npm run prod
+### Migrate Data
+create an empty database with mysql 8.x version, then setup that fresh db at your .env file, then run the following command to generate all tables and seeding dummy data:
+`
 
+### Running Application
+To serve the laravel app, you need to run the following command in the project director (This will serve your app, and give you an adress with port number 8000 or etc)
+- **Note: You need run the following command into new terminal tab**
+
+```php
 php artisan serve
+
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
